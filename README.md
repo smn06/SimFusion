@@ -1,7 +1,8 @@
-SimFusion
-==============================
+## SimFusion: SimCLRv2 for Image and Text Similarity
 
-A short description of the project.
+### Overview
+
+SimFusion is an innovative project that leverages SimCLRv2 and similar techniques to measure similarity between both images and text. SimCLRv2, a powerful self-supervised learning method, is applied to create embeddings for both images and text, allowing for a unified approach to similarity measurement. This project provides a versatile and efficient solution for tasks that involve assessing similarity between diverse modalities.
 
 Project Organization
 ------------
@@ -54,4 +55,51 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+### Key Features
+
+- **Unified Similarity Measurement:** SimFusion seamlessly integrates SimCLRv2 for both image and text embeddings, enabling a cohesive approach to similarity assessment.
+  
+- **Modality Agnostic:** Whether you're comparing images, text, or a combination of both, SimFusion handles diverse modalities effortlessly.
+
+- **Scalable and Efficient:** The project is designed to be scalable and efficient, making it suitable for large-scale datasets and real-world applications.
+
+### Getting Started
+
+Follow these simple steps to get started with SimFusion:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/smn06/SimFusion.git
+   cd SimFusion
+   ```
+
+2. **Setup Virtual Environment:**
+   ```bash
+   virtualenv venv
+   source venv/bin/activate
+   ```
+
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run SimFusion:**
+   ```bash
+   python main.py
+   ```
+
+### Usage
+
+- Customize the configuration file `config.yaml` to tailor SimFusion to your specific needs.
+
+- Explore the Jupyter notebooks in the `examples` folder for practical use cases and demonstrations.
+
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
